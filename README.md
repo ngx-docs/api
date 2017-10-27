@@ -21,7 +21,7 @@ Cons:
 
 Image preview: 
 
-![Image preview](http://ngx-docs.wwwdev.io/preview.png)
+![Image preview](http://ngx-docs.wwwdev.io/api/preview.png)
 
 ----
 
@@ -40,7 +40,7 @@ Image preview:
 
 ## Demonstration
 
-[Live demonstration](http://ngx-docs.wwwdev.io)
+[Live demonstration](http://ngx-docs.wwwdev.io/api)
 
 Clone this repository:
 
