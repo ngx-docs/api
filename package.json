@@ -29,8 +29,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ngx-markdown/core": "^0.2.2",
-    "@ngx-prism/rxjs": "^0.1.5"
+    "@ngx-markdown/core": "^0.2.2"
   },
   "devDependencies": {
     "@angular/animations": "^4.4.6",
@@ -79,9 +78,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngx-docs/material.git"
+    "url": "git+https://github.com/ngx-docs/api.git"
   },
   "bugs": {
-    "url": "https://github.com/ngx-docs/material/issues"
+    "url": "https://github.com/ngx-docs/api/issues"
   }
 }
