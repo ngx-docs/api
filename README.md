@@ -27,7 +27,13 @@ Cons:
 
 ## Demonstration
 
-Go to `demo` folder and opening your command line and do the following:
+Clone this repository:
+
+```bash
+git clone https://github.com/ngx-docs/api.git
+```
+
+Go to `demo` folder and nu opening your command line do the following:
 
 ```bash
 npm i && npm start
