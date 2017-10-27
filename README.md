@@ -2,6 +2,15 @@
 
 Angular 2+ components to create documentation on Angular Material.
 
+[![GitHub version](https://badge.fury.io/gh/ngx-docs%2Fapi.svg)](https://badge.fury.io/gh/ngx-docs%2Fapi)
+[![npm version](https://badge.fury.io/js/%40ngx-docs%2Fapi.svg)](https://badge.fury.io/js/%40ngx-docs%2Fapi)
+
+[![GitHub issues](https://img.shields.io/github/issues/ngx-docs/api.svg)](https://github.com/ngx-docs/api/issues)
+[![GitHub forks](https://img.shields.io/github/forks/ngx-docs/api.svg)](https://github.com/ngx-docs/api/network)
+[![GitHub stars](https://img.shields.io/github/stars/ngx-docs/api.svg)](https://github.com/ngx-docs/api/stargazers)
+[![GitHub license](https://img.shields.io/github/license/ngx-docs/api.svg)](https://github.com/ngx-docs/api/blob/master/LICENSE)
+
+
 Pros:
 * Component changeDetection is set to `OnPush`, it gives better overall performance.
 * Body `key` is header value, so it is possible to dynamically change table structure.
@@ -12,7 +21,7 @@ Cons:
 
 Image preview: 
 
-![Image preview](https://github.com/ngx-docs/api/blob/master/preview.png)
+![Image preview](http://ngx-docs.wwwdev.io/preview.png)
 
 ----
 
@@ -30,6 +39,8 @@ Image preview:
 ----
 
 ## Demonstration
+
+[Live demonstration](http://ngx-docs.wwwdev.io)
 
 Clone this repository:
 
