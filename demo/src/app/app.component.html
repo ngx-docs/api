@@ -1,0 +1,34 @@
+<form #form (submit)="submit(form)">
+  <fieldset>
+    <legend>Description & title:</legend>
+    description: <input type="text" name="description" value="{{description}}" /><br />
+    title: <input type="text" name="title" value="{{title}}" /><br />
+    <input type="submit" />
+  </fieldset>
+</form>
+
+<form #formColumn (submit)="submitHeader(formColumn)">
+  <fieldset>
+    <legend>Column:</legend>
+    header: <input type="text" name="header" /><br />
+    <input type="submit" />
+  </fieldset>
+</form>
+
+<form #formBody (submit)="submitBody(formBody)">
+  <fieldset>
+    <legend>Api:</legend>
+    <ng-container *ngFor="let h of header">
+      {{h}}: <input type="text" name="{{h.toLowerCase()}}" /><br />
+    </ng-container>
+    <input type="submit" />
+  </fieldset>
+</form>
+
+<ngx-docs-api
+  [title]="title"
+  [description]="description"
+  [header]="header"
+  [body]="body"
+>
+</ngx-docs-api>
