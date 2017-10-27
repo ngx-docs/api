@@ -10,6 +10,10 @@ Cons:
 * Need to change `@Input()` instance to have changes visible on template.
 * Tests are not ready yet.
 
+Image preview: 
+
+![Image preview](https://github.com/ngx-docs/api/blob/master/preview.png)
+
 ----
 
 ## Table of contents
