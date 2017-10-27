@@ -33,7 +33,7 @@ Clone this repository:
 git clone https://github.com/ngx-docs/api.git
 ```
 
-Go to `demo` folder and nu opening your command line do the following:
+Go to `demo` folder and by opening your command line do the following:
 
 ```bash
 npm i && npm start
