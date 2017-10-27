@@ -2,21 +2,13 @@
 
 Angular 2+ components to create documentation on Angular Material.
 
-[![npm version](https://badge.fury.io/js/%40ngx-docs%2Fmaterial.svg)](https://badge.fury.io/js/%40ngx-docs%2Fmaterial)
-[![GitHub version](https://badge.fury.io/gh/ngx-docs%2Fmaterial.svg)](https://badge.fury.io/gh/ngx-docs%2Fmaterial)
-[![Known Vulnerabilities](https://snyk.io/test/github/ngx-docs/material/badge.svg)](https://snyk.io/test/github/ngx-docs/material)  
-
-[![GitHub issues](https://img.shields.io/github/issues/ngx-docs/material.svg)](https://github.com/ngx-docs/material/issues)
-[![GitHub forks](https://img.shields.io/github/forks/ngx-docs/material.svg)](https://github.com/ngx-docs/material/network)
-[![GitHub stars](https://img.shields.io/github/stars/ngx-docs/material.svg)](https://github.com/ngx-docs/material/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/ngx-docs/material/master/LICENSE)
-
 Pros:
 * Component changeDetection is set to `OnPush`, it gives better overall performance.
 * Body `key` is header value, so it is possible to dynamically change table structure.
 
 Cons:
 * Need to change `@Input()` instance to have changes visible on template.
+* Tests are not ready yet.
 
 ----
 
